@@ -47,21 +47,21 @@
 ```index.html
   <div class="content onlineShop">
   <article class="collection-item">
-            <div class="segment">
-              <h3 class="collection-item-title">SHIRRING TULLE BLOUSE</h3>
-              <div class="img-wrapper bg">
-                <a href="#">
-                <img
-                  src="./images/index/collection-item_shirring-tulle-blouse.jpg"
-                  alt="shirring tulle blouse"
-                  class="collection-item-img animation-scale"/>
-                </a>
-              </div>
-            </div>
-            <span class="option-label">
-              Color : Pink/Navy - &#65510;248,000
-            </span>
-          </article>
+    <div class="segment">
+      <h3 class="collection-item-title">SHIRRING TULLE BLOUSE</h3>
+      <div class="img-wrapper bg">
+        <a href="#">
+          <img
+          src="./images/index/collection-item_shirring-tulle-blouse.jpg"
+          alt="shirring tulle blouse"
+          class="collection-item-img animation-scale"/>
+        </a>
+      </div>
+    </div>
+    <span class="option-label">
+      Color : Pink/Navy - &#65510;248,000
+    </span>
+  </article>
     </div>
 ```
 
