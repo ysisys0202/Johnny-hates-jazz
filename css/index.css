@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Noto+Sans+KR:wght@100;400;500;700&display=swap");
 @keyframes scale-ani {
   0% {
@@ -77,7 +76,7 @@ body {
 
 .content-section-title {
   font-size: 7.2rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.11;
   text-transform: uppercase; }
 
@@ -96,7 +95,7 @@ body {
   font-family: "Abril Fatface", serif;
   color: #363636;
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.667; }
 
 .collection-link-title {
@@ -106,7 +105,7 @@ body {
 
 .collection-item-small-title {
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.667;
   text-transform: uppercase; }
 
@@ -153,6 +152,7 @@ body {
     .global-header .left-nav-item > a {
       display: block;
       font-size: 14px;
+      font-weight: 100;
       line-height: 2.857; }
   .global-header .main-nav {
     display: flex; }
@@ -162,6 +162,7 @@ body {
     .global-header .main-nav-item > a {
       display: block;
       font-size: 16px;
+      font-weight: 100;
       line-height: 2.5; }
   .global-header .dropdown-list {
     position: absolute;
@@ -173,7 +174,7 @@ body {
     transition: 0.5s; }
   .global-header .dropdown-item {
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 1.43; }
   .global-header .dropdown-item:not(.exclusive):hover {
     color: #fff;
@@ -190,6 +191,7 @@ body {
     .global-header .right-nav-item > a {
       display: block;
       font-size: 14px;
+      font-weight: 100;
       line-height: 2.857; }
   .global-header .mobile-nav {
     display: none; }
@@ -307,8 +309,7 @@ body {
       top: 3.17%;
       left: 100%;
       transform: rotate(90deg);
-      transform-origin: top left;
-      font-weight: 400; }
+      transform-origin: top left; }
     .season .season-concept p {
       position: absolute;
       /*40px / 960px *100*/
@@ -317,7 +318,7 @@ body {
       left: 3.125%;
       width: 70%;
       font-size: 18px;
-      font-weight: 400;
+      font-weight: 100;
       line-height: 1.875; }
   .season .img-wrapper {
     position: absolute;
@@ -442,8 +443,8 @@ body {
 
 .shop-the-collection .collection-item-small-title {
   position: absolute;
-  /*40px / 480px *100*/
-  top: 8.33%;
+  /*20px / 480px *100*/
+  top: 6.25%;
   /*30px / 590px *100*/
   left: 5.08%; }
 
