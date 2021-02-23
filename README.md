@@ -45,7 +45,6 @@
 - 기존의 코드
 
 ```index.html
-  <div class="content onlineShop">
   <article class="collection-item">
     <div class="segment">
       <h3 class="collection-item-title">SHIRRING TULLE BLOUSE</h3>
@@ -62,7 +61,6 @@
       Color : Pink/Navy - &#65510;248,000
     </span>
   </article>
-    </div>
 ```
 
 - 리뉴얼된 코드
