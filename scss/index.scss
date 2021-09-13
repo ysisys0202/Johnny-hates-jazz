@@ -92,12 +92,13 @@ body {
 .collection-item-title {
   font-family: "Abril Fatface", serif;
   color: $color-grey-01;
-  @include font-lg($fw: 400);
+  @include font-lg($lh: 1.3333, $fw: 400);
 }
 .option-label {
   font-family: "Abril Fatface", serif;
   color: $color-grey-01;
   @include font-md($fw: 400);
+  white-space: nowrap;
 }
 .collection-link-title {
   @include font-xxl;
@@ -113,6 +114,9 @@ body {
   font-family: "Abril Fatface", serif;
   @include font-xl;
   text-transform: uppercase;
+}
+html {
+  overflow-x: hidden;
 }
 body {
   // padding-top: 160px;
@@ -421,7 +425,6 @@ body {
   .collection-item-title {
     /*(pl:30px) / (fz:36px) */
     padding-left: 0.83em;
-    line-height: 1.33333;
     border-bottom: 2px solid $color-grey-01;
   }
   .collection-item:nth-of-type(1) .img-wrapper.bg {
@@ -867,5 +870,65 @@ body {
   }
 }
 /*768px 이하*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+  html {
+    font-size: 7px;
+  }
+  .collection-item-title {
+    @include font-md($lh: 2.22);
+  }
+  .option-label {
+    @include font-xs;
+  }
+  .collection-link-title {
+    @include font-xl($lh: 1);
+  }
+  .collection-item-small-title {
+    @include font-xs($lh: 1);
+  }
+  .item-price {
+    @include font-xxs;
+  }
+  .category-title {
+    @include font-md;
+  }
+  /*content*/
+  /*season*/
+  .season {
+    .season-concept {
+      /*420px / 320px * 100*/
+      padding-bottom: 131.25%;
+      .content-section-title {
+        font-size: 5.2rem;
+      }
+      p {
+        top: 2.167%;
+        width: 80%;
+        font-size: 14px;
+      }
+    }
+  }
+  /*banner picnic*/
+  .picnic {
+    .banner-title {
+      font-size: 25vw;
+      line-height: 2.2;
+      height: 2.2em;
+    }
+  }
+  /*banner midsummer*/
+  .midsummer {
+    .banner-title {
+      font-size: 20vw;
+    }
+  }
+  /*footer*/
+  .global-footer {
+    .company-info-list {
+      flex-wrap: wrap;
+    }
+    p {
+      margin-top: 20px;
+    }
+  }
 }
