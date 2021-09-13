@@ -1,0 +1,24 @@
+{
+  "name": "11th-johnny-hates-jazz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -wr  --source-map true ./scss/ -o ./css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysisys0202/Johnny-hates-jazz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ysisys0202/Johnny-hates-jazz/issues"
+  },
+  "homepage": "https://github.com/ysisys0202/Johnny-hates-jazz#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
